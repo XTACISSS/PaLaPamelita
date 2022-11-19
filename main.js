@@ -6,7 +6,7 @@ const dijoQueSi = () => {
 
     Swal.fire({
 
-        title: 'Sabia q aceptarias 😸',
+        title: '😸',
         imageUrl: 'assets/img/gato.jpg',
         imageWidth: 200
     }).then(function() {
@@ -20,7 +20,7 @@ const evitarMiCorazonRoto = () => {
     buttonNo.style.position = 'absolute';
 
     buttonNo.style.top = (Math.random() * window.innerHeight) + 'px';
-    buttonNo.style.left = (Math.random() * window.Width) + 'px';
+    buttonNo.style.left = (Math.random() * window.innerWidth) + 'px';
 
 }
 
